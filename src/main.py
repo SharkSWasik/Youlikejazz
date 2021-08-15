@@ -1,7 +1,6 @@
 import preprocessing
 import postprocessing
 from preprocessing import to_gray
-from preprocessing import to_lba
 from preprocessing import blur
 from preprocessing import binary_otsu
 from preprocessing import replace_pixel
@@ -47,8 +46,8 @@ def get_skelet(image):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='beewing')
-    parser.add_argument('--dst', type=str, default="Data/", help='csv destination path')
-    parser.add_argument('--src', type=str, default="RESULT/", help='images source path')
+    parser.add_argument('--dst', type=str, default="RESULTS/", help='csv destination path')
+    parser.add_argument('--src', type=str, default="DATA/", help='images source path')
     args = parser.parse_args()
 
     if not os.path.exists(args.dst):

@@ -1,10 +1,25 @@
 # BeeWingIntersection
 ### Ce projet a été réalisé par Julien Cardon et Apolline Wasik
 
-
 ## Rappel du projet
 
 Nous devons trouver les intersections des nervures d'ailes d'abeilles.
+
+# Pour utiliser docker
+```
+docker build -t "bee" .
+```
+Le dossier sources correspond aux dossier contenant les images des nervures à détecter, libre à vous de monter un dossier d'un autre nom.
+
+```
+docker run -v "$PWD"/messources/:/DATA/ -v "$PWD"/RESULTS/:/RESULTS/ --rm bee
+```
+
+Les csv seront automatiquement sauvegardés dans le dossiers RESULTS.
+
+# Sans Docker
+
+Le fichier requirements.txt contient toutes les dépendantes nécessaires du projet.
 
 ## Interprétation
 
