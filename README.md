@@ -12,7 +12,7 @@ Pour interpréter le code, il faut se placer à la racine du projet.
 
 ## Avec jupyter notebook
 
-Il suffit d'éxécuter les cellules dans le fichiers main.ipynb et de remplacer les valeurs des variables src_dir et dst_dir qui correspondent respectivement aux dossier contenant les images à segmenter et le dossier ou les résultat (csv) doivent être enregistrés.
+Il suffit d'éxécuter les cellules dans le fichiers main.ipynb et de remplacer les valeurs des variables src_dir et dst_dir qui correspondent respectivement aux dossiers contenant les images à segmenter et le dossier ou les résultat (csv) doivent être enregistrés.
 
 ## Sans jupyter notebook
 
