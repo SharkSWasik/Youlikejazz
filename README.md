@@ -40,3 +40,4 @@ Il faut se placer à la racine du projet. Il y a deux arguments pour spécifier 
 python3 src/main.py --dst dst_path --src src_path
 
 ```
+![maxresdefault](https://user-images.githubusercontent.com/36293875/129480394-6b7008bd-fda7-4214-9c03-201aff9d9e20.png)
