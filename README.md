@@ -22,7 +22,7 @@ Les csv seront automatiquement sauvegardés dans le dossiers RESULTS.
 
 # Sans Docker
 
-Le fichier requirements.txt contient toutes les dépendantes nécessaires du projet.
+Le fichier requirements.txt contient toutes les dépendances nécessaires du projet.
 
 ## Interprétation
 
